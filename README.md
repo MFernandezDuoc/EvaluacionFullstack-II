@@ -2,9 +2,9 @@
 
 ## Estudiantes
 
-* Martin Fernandez Urbina
-* Matias Yanac
-* Ignacio González
+* Martin Fernandez 
+* Martin Fuentes
+* Darliette loncopan
 
 
 ## Descripción del Proyecto
