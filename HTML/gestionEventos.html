@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventosPro - Gestión de Eventos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="main.html">EventosPro</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" href="gestionEventos.html">Gestión</a>
+                <a class="nav-link" href="reportesAdmin.html">Reportes</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <h2 class="mb-4">Gestión y Seguimiento de Eventos</h2>
+
+        <div class="card shadow-sm">
+            <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Lista de Eventos Registrados</h5>
+                <input type="text" class="form-control w-25" placeholder="Buscar evento...">
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>ID</th>
+                                <th>Cliente</th>
+                                <th>Salón</th>
+                                <th>Fecha</th>
+                                <th>Estado Actual</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#EV-101</td>
+                                <td>TechCorp Chile</td>
+                                <td>SL001 - Salón Principal</td>
+                                <td>15/10/2026</td>
+                                <td><span class="badge bg-warning text-dark">En planificación</span></td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary">Ver Detalle</button>
+                                    <button class="btn btn-sm btn-outline-secondary">Editar Estado</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#EV-102</td>
+                                <td>María González</td>
+                                <td>SL004 - Salón de Bodas</td>
+                                <td>20/10/2026</td>
+                                <td><span class="badge bg-info text-dark">Reservado</span></td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary">Ver Detalle</button>
+                                    <button class="btn btn-sm btn-outline-secondary">Editar Estado</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#EV-103</td>
+                                <td>Banco Global</td>
+                                <td>SL002 - Salón Ejecutivo</td>
+                                <td>11/09/2026</td>
+                                <td><span class="badge bg-success">En ejecución</span></td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary">Ver Detalle</button>
+                                    <button class="btn btn-sm btn-outline-secondary">Editar Estado</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#EV-104</td>
+                                <td>Fundación Educar</td>
+                                <td>SL003 - Salón Seminarios</td>
+                                <td>01/09/2026</td>
+                                <td><span class="badge bg-secondary">Finalizado</span></td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary">Ver Detalle</button>
+                                    <button class="btn btn-sm btn-outline-secondary">Editar Estado</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

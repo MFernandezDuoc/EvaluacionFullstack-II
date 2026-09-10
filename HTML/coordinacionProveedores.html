@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventosPro - Portal de Proveedores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">EventosPro - Proveedores</a>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <h3 class="mb-3">Servicios Asignados</h3>
+        <p class="text-muted">Por favor confirme o rechace la disponibilidad para los siguientes eventos.</p>
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <div class="card shadow-sm border-warning">
+                    <div class="card-header bg-warning text-dark fw-bold">
+                        Pendiente de Confirmación
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Catering - Evento #EV-101</h5>
+                        <p class="card-text mb-1"><strong>Fecha:</strong> 15/10/2026 - 19:00 hrs</p>
+                        <p class="card-text mb-1"><strong>Lugar:</strong> SL001 - Salón Principal</p>
+                        <p class="card-text mb-3"><strong>Detalle:</strong> Servicio para 250 personas (Cena de Gala).</p>
+                        <div class="d-grid gap-2 d-flex">
+                            <button class="btn btn-success flex-fill">Confirmar</button>
+                            <button class="btn btn-danger flex-fill">Rechazar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <div class="card shadow-sm border-success">
+                    <div class="card-header bg-success text-white fw-bold">
+                        Confirmado
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Soporte Audiovisual - Evento #EV-103</h5>
+                        <p class="card-text mb-1"><strong>Fecha:</strong> 11/09/2026 - 09:00 hrs</p>
+                        <p class="card-text mb-1"><strong>Lugar:</strong> SL002 - Salón Ejecutivo</p>
+                        <p class="card-text mb-3"><strong>Detalle:</strong> Proyector, Videoconferencia y 4 Micrófonos.</p>
+                        <div class="alert alert-secondary mb-0 text-center" role="alert">
+                            Servicio Confirmado
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
