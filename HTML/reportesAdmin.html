@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventosPro - Administración y Reportes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="main.html">EventosPro</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="gestionEventos.html">Gestión</a>
+                <a class="nav-link active" href="reportesAdmin.html">Panel Admin</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <h2 class="mb-4">Panel de Reportes Administrativos</h2>
+
+        <div class="row mb-4">
+            <div class="col-md-3 col-sm-6 mb-2">
+                <div class="card bg-primary text-white p-3 shadow-sm text-center">
+                    <h6>Eventos del Mes</h6>
+                    <h3 class="fw-bold mb-0">42</h3>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-2">
+                <div class="card bg-success text-white p-3 shadow-sm text-center">
+                    <h6>Ingresos Totales</h6>
+                    <h3 class="fw-bold mb-0">$32.500.000</h3>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-2">
+                <div class="card bg-warning text-dark p-3 shadow-sm text-center">
+                    <h6>Ocupación Salones</h6>
+                    <h3 class="fw-bold mb-0">82%</h3>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-2">
+                <div class="card bg-danger text-white p-3 shadow-sm text-center">
+                    <h6>Conflictos / Alertas</h6>
+                    <h3 class="fw-bold mb-0">0</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-white">
+                <h5 class="mb-0">Rendimiento por Salón</h5>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-striped mb-0">
+                        <thead>
+                            <tr>
+                                <th>Código</th>
+                                <th>Salón</th>
+                                <th>Eventos Realizados</th>
+                                <th>Ingresos Generados (CLP)</th>
+                                <th>% Ocupación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>SL001</td>
+                                <td>Salón Principal</td>
+                                <td>12</td>
+                                <td>$14.400.000</td>
+                                <td>90%</td>
+                            </tr>
+                            <tr>
+                                <td>SL002</td>
+                                <td>Salón Ejecutivo</td>
+                                <td>15</td>
+                                <td>$5.250.000</td>
+                                <td>75%</td>
+                            </tr>
+                            <tr>
+                                <td>SL003</td>
+                                <td>Salón de Seminarios</td>
+                                <td>8</td>
+                                <td>$4.000.000</td>
+                                <td>60%</td>
+                            </tr>
+                            <tr>
+                                <td>SL004</td>
+                                <td>Salón de Bodas</td>
+                                <td>7</td>
+                                <td>$5.250.000</td>
+                                <td>85%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
