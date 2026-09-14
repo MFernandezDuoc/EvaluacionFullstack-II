@@ -21,7 +21,7 @@
 
         <div class="row">
             <div class="col-md-6 mb-3">
-                <div class="card shadow-sm border-warning">
+                <div class="card shadow-sm border-warning" data-servicio-id="EV-101-catering">
                     <div class="card-header bg-warning text-dark fw-bold">
                         Pendiente de Confirmación
                     </div>
@@ -30,16 +30,16 @@
                         <p class="card-text mb-1"><strong>Fecha:</strong> 15/10/2026 - 19:00 hrs</p>
                         <p class="card-text mb-1"><strong>Lugar:</strong> SL001 - Salón Principal</p>
                         <p class="card-text mb-3"><strong>Detalle:</strong> Servicio para 250 personas (Cena de Gala).</p>
-                        <div class="d-grid gap-2 d-flex">
-                            <button class="btn btn-success flex-fill">Confirmar</button>
-                            <button class="btn btn-danger flex-fill">Rechazar</button>
+                        <div class="d-grid gap-2 d-flex acciones-proveedor">
+                            <button class="btn btn-success flex-fill" data-accion="confirmar">Confirmar</button>
+                            <button class="btn btn-danger flex-fill" data-accion="rechazar">Rechazar</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6 mb-3">
-                <div class="card shadow-sm border-success">
+                <div class="card shadow-sm border-success" data-servicio-id="EV-103-audiovisual">
                     <div class="card-header bg-success text-white fw-bold">
                         Confirmado
                     </div>
@@ -48,7 +48,7 @@
                         <p class="card-text mb-1"><strong>Fecha:</strong> 11/09/2026 - 09:00 hrs</p>
                         <p class="card-text mb-1"><strong>Lugar:</strong> SL002 - Salón Ejecutivo</p>
                         <p class="card-text mb-3"><strong>Detalle:</strong> Proyector, Videoconferencia y 4 Micrófonos.</p>
-                        <div class="alert alert-secondary mb-0 text-center" role="alert">
+                        <div class="alert alert-secondary mb-0 text-center acciones-proveedor" role="alert">
                             Servicio Confirmado
                         </div>
                     </div>
@@ -58,5 +58,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/storage.js"></script>
+    <script src="../JS/proveedores.js"></script>
 </body>
 </html>
