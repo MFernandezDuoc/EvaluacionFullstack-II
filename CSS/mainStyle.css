@@ -1,0 +1,86 @@
+/* EventosPro Estilos */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Tipografía y Fondo General */
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #f1f5f9 !important;
+    color: #0f172a !important;
+}
+
+/*(Azul Marino Profundo + Borde Dorado) */
+.navbar {
+    background: #0f172a !important;
+    border-bottom: 4px solid #f59e0b !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-weight: 700 !important;
+    color: #f59e0b !important;
+    font-size: 1.5rem !important;
+}
+
+/* Tarjetas animadas*/
+.card {
+    border: none !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.card:hover {
+    transform: translateY(-8px) !important; 
+    box-shadow: 0 16px 30px rgba(15, 23, 42, 0.18) !important;
+}
+
+.card-header {
+    border-radius: 16px 16px 0 0 !important;
+    font-weight: 600 !important;
+}
+
+/* Botones  */
+.btn-primary {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%) !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    padding: 0.6rem 1.4rem !important;
+    box-shadow: 0 4px 10px rgba(30, 58, 138, 0.2) !important;
+}
+
+.btn-primary:hover {
+    transform: scale(1.03) !important;
+    box-shadow: 0 6px 15px rgba(30, 58, 138, 0.35) !important;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
+
+/* Tablas Estilizadas */
+.table-responsive {
+    border-radius: 14px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
+    overflow: hidden !important;
+}
+
+.table thead {
+    background-color: #1e293b !important;
+    color: #ffffff !important;
+}
+
+.table thead th {
+    border: none !important;
+    padding: 1rem !important;
+}
+
+
+header.bg-primary {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%) !important;
+    border-bottom: 5px solid #f59e0b !important;
+}
